@@ -1,0 +1,7 @@
+clickhouse_event_collectors:
+  - service: "bulk_push_prod"
+    protocol: "tcp"
+    domain: "infra.infrapu.sh"
+  - service: "bulk_push_backup"
+    protocol: "tcp"
+    domain: "infra.infrapu.sh"
